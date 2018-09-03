@@ -8,5 +8,5 @@ socket.on('connect', () => {
 
 socket.on('auditEvent', message => {
 	console.log('New audit event received:');
-	console.log(`${JSON.stringify(message, null, 3)}\n');
+	console.log(`${JSON.stringify(message, null, 3)}\n`);
 });
