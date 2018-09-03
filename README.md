@@ -10,6 +10,27 @@ npm install
 npm start
 ```
 
+
+## How it works
+
+After executing server application, execute this client app.
+
+Pushed message should be printed in application consoleas following:
+
+```bash
+Client connected to server
+
+New audit event received:
+{
+   "entity": "User",
+   "entityId": "bolzon",
+   "datetime": "2018-09-03T14:21:43.026Z",
+   "action": "CREATE",
+   "username": "admin"
+}
+```
+
+
 # Author
 
 September, 2018<br/>
