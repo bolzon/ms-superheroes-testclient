@@ -1,7 +1,7 @@
 {
   "name": "ms-superheroes-testclient",
   "version": "1.0.0",
-  "description": "Client to test audit events via socket/push service",
+  "description": "Simple client to test audit events via socket/push service",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
