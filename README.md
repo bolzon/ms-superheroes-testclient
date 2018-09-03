@@ -15,7 +15,7 @@ npm start
 
 After executing server application, execute this client app.
 
-Pushed message should be printed in application consoleas following:
+Pushed message should be printed in application console as following:
 
 ```bash
 Client connected to server
